@@ -1,5 +1,8 @@
 
 <?php require "includes/header.php"; ?>
 
-hello from index
+
+<h2><?php //echo "Welcome " . $_SESSION['username']; ?> Dashboard</h2>
+
+
 <?php require "includes/footer.php"; ?>
