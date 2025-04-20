@@ -13,9 +13,9 @@
   $conn = new PDO("mysql:host=$host;dbname=$dbname;", $user, $pass);
 
   if($conn == true) {
-    echo "It's connected!";
+   // echo "It's connected!";
   } else {
-    echo "Connection has failed: error";
+   // echo "Connection has failed: error";
   }
 
 ?>
